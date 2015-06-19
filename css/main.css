@@ -4,17 +4,34 @@ General
 a {
 	text-decoration: none;
 	list-style: none;
-	color: #6ab47b;
 }
 /********************************
 Header
 ********************************/
-
+h1 {
+	font-family: 'Changa One', serif-sans;
+	margin: 15px 0 0;
+	font-weight: bold;
+	font-size: 32px;
+	text-align: center;
+}
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+}
 
 /********************************
 Navigation
 ********************************/
-
+nav ul li{
+	font-family: 'Changa One', cursive;
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0.10%;
+}
 
 /********************************
 Body
