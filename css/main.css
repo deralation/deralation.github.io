@@ -1,0 +1,20 @@
+body {
+			background: #ccc
+		}
+		.sidebar {
+			background: #eee
+		}
+		.blog-content {
+			background: #fff
+		}
+
+		.container {
+			background: #fff
+		}
+
+		.active {
+			font-weight: bold
+		}
+		header a {
+			color:#444;
+		}
