@@ -9,8 +9,8 @@
 	</head>
 	<body>
 		<header>
-				<h1><a href="index.html">Deralation</a></h1>
-				<h2>NBA Videos</h2>
+				<h1><a id="ad" href="javascript:void(0)">Deralation</a></h1>
+				<h2 id="title">NBA Videos</h2>
 			<nav>
 				<ul>
 					<li><a href="https://www.google.se/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0CCsQFjAB&url=http%3A%2F%2Fwww.nba.com%2Fplayoffs%2F2015%2Ffinals%2F&ei=dhCEVbaEAuLVygP3_oCwDg&usg=AFQjCNFdvk_EJwhX8w6wi_g0GRRHxLUGaw" class="selected">The Finals</a></li>
@@ -48,6 +48,18 @@
 					<p> CLE 29-22-22-25=100 GSW 19-29-25-25=108</p>
 				</li>
 			</ul>
+			<script type="text/javascript">
+				var link = document.getElementById('ad');
+				var onAdClick = function() {
+					document.title = document.title.replace('Just', 'Not Just');
+
+					var titleElement = document.getElementById('title');
+					titleElement.innerHTML = "NFL Videos LoL :P";
+
+					alert("You found my little secret :)))))))");
+				};
+				link.addEventListener('click', onAdClick, false)
+			</script>
 		</section>
 		</div>
 		<footer>
