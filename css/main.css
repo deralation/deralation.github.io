@@ -5,31 +5,42 @@ a {
 	text-decoration: none;
 	list-style: none;
 }
-
-/*******************************
-Color
-*******************************/
-
 body {
-	background-color: #558C89;
-	margin: 0;
+	font-family: 'Open Sans', sans-serif;
 }
+#wrapper {
+	max-width: 950px;
+	margin: auto;
+	padding: 0 5%;
+}
+
 /********************************
 Header
 ********************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
 h1 {
 	font-family: 'Changa One', serif-sans;
 	margin: 15px 0 0;
 	font-weight: bold;
 	font-size: 32px;
-	text-align: center;
-	color: #ECECEA;
+	color: #444;
 }
 h2 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 28px;
 	font-weight: bold;
-	text-align: center;
 	color: #ECECEA;
 }
 
@@ -37,12 +48,12 @@ h2 {
 Navigation
 ********************************/
 nav {
-	background-color: #74AFAD;
+	background-color: #C3C3BEs;
 }
 nav ul{
 	list-style: none;
 	margin: 0 0 0;
-	padding: 0;
+	padding: 10px 0;
 	text-align: center;
 }
 nav ul li{
@@ -61,27 +72,67 @@ nav a {
 }
 
 /********************************
-Body
+Page:The Finals;
 ********************************/
-body 	
-		.sidebar {
-			background: #eee
-		}
-		.blog-content {
-			background: #fff
-		}
 
-		.container {
-			background: #fff
-		}
-
-		.active {
-			font-weight: bold
-		}
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #bdc3c7;
+}
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2%;
+	background-color: #f5f5f5;
+  	color: #bdc3c7;
+}
+#gallery li a{
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #bdc3c7;
+}
+#gallery li a p {
+  	margin: 0;
+  	padding: 5%;
+  	font-size: 0.75em;
+  	color: #bdc3c7;
+}
 /********************************
 Footer	
 ********************************/
 
-		header a {
-			color:#444;
-		}
+footer {
+	text-align: center;
+	font-size: 0.75em;
+	clear: both;
+	padding-top: 50px;
+}
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+/*******************************
+Color
+*******************************/
+/* links color */
+a {
+	color: #444;
+}
+nav a.selected, nav a:hover {
+	color: #ECECEA
+}
+/*Body bacground color*/
+
+body {
+	background-color: #9EA7A6;
+	margin: 0;
+
+/*footer color */
+}
+footer {
+	color:#444;
+	
