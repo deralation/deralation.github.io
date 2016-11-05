@@ -1,0 +1,46 @@
+name:               "Gokhan Derala"
+description:        "PHP & RoR Developer & Entrepreneur & Finance"
+
+url:                ""
+author:             "Gokhan Derala"
+email:              "gokhan@gokhanderala.com"
+gravatar_hash:      "16a773d3253403c970daf79ddd081c87"
+email:              "gokhan@gokhanderala.com"
+github:             "deralation"
+linkedin:           "gokhanderala"
+
+disqus_shortname:   "deralation"
+
+background:         "http://apple.wallpapersfine.com/wallpapers/thumbs/750x1334/w-17130.jpg"
+
+paginate:           5
+paginate_path:      "/page:num/"  
+
+baseurl:            ""
+permalink:          /:year/:month/:day/:title/
+
+markdown:           kramdown
+
+nav:
+  - name:           "About"
+    href:           "/about"
+
+sass:
+  style:            :compressed
+
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+gems:
+  - jekyll-paginate
