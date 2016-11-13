@@ -42,5 +42,4 @@ defaults:
     values:
       layout:       "post"
 
-gems:
-  - jekyll-paginate
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
