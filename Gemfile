@@ -1,11 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'bundler'
 gem 'jekyll'
-gem 'rake'
-gem 'foreman'
-gem 'thin'
-gem 'rack-contrib'
+gem 'rack-jekyll'
 
-group :jekyll_plugins do
-  gem "jekyll-paginate"
-end
+
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
