@@ -42,6 +42,4 @@ defaults:
     values:
       layout:       "post"
 
-gems: ['kramdown']
 gems: [jekyll-paginate]
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
