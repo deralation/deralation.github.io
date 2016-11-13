@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
-gem 'bundler'
+
 gem 'jekyll'
-gem 'rack-jekyll'
+gem 'rake'
+gem 'foreman'
+gem 'thin'
+gem 'rack-contrib'
 
 group :jekyll_plugins do
   gem "jekyll-paginate"
