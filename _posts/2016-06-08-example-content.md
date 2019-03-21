@@ -3,10 +3,18 @@ description:  ""
 image:        "http://placehold.it/400x200"
 author:       "gderala"
 ---
+<p class='lead'>Summary</p>
 
-<p class="lead">29 y/o Software developer based in Istanbul and Estonia E-Resident.</p>
->I was used to doing Finance, now build software with PHP and Ruby on Rails. I would like to combine with Software and  Finance because of that I use [Ledger](https://github.com/ledger/ledger) for personal finance. Ready to be Serial Entrepreneur.	
+I am **Software Developer** based in Istanbul / Turkey. Working in [YOYO](https://driveyoyo.com) Car Rental Industry since 2016 March.
 
-<p class="lead">About this site</p>
-Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
-It's an immensely useful tool. Find out more by [visiting the project on GitHub](https://github.com/jekyll/jekyll).
+My pathway is rather atypical. I made an important change in my professional life, by turning towards a quite new career in web development.
+
+I had more than 6 years of experience in the Finance field, first in [Aytek](http://www.aytek.com/), an international Construction company in Muscat (Oman) than in [Publik](http://publik.com.tr/) / [Adphorus](https://adphorus.com/), a SaaS startup in Istanbul (Turkey).
+
+By starting working in [Publik](http://publik.com.tr/) / [Adphorus](https://adphorus.com/), I discovered the field of Digital Agency and became closer to the technical teams. My interest in their work became grew more and more, and I quickly started to learn to code myself.
+
+I resigned for becoming a software developer, which is a new generation of craftsmanship. I always felt like I had to learn how to create something. I always had a feeling I was meant to be more creative, that I had to build something by myself and Finance could not satisfy this need. 
+
+I decided to joined Intense **Software Development Bootcamp** during 9 weeks intense software programming boot camp.
+
+Now I am **Software Developer** and **Estonia E-Resident** focus on Tech Projects.

@@ -1,14 +1,7 @@
 ---
 layout: default 
 ---
-<header class="bloghead">
-  </h1>
-    <nav class="bloghead-nav">
-        {% for nav in site.nav %}
-            <span>{{ nav.name }}</span>
-        {% endfor %}
-    </nav>
-</header>
+
 <div class="content">
     {% if site.posts.size == 0 %}
     <h2>No post found</h2> {% else %} {% for post in paginator.posts %}
