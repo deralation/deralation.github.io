@@ -3,6 +3,7 @@
 {% include head.html %}
 
 <body class="preload">
+
     <div class='header-container'>
         <header class="inner">
             <nav>
@@ -19,9 +20,21 @@
             </div>
         </header>
     </div>
+
     <section class="posts inner">
         {{ content }}
     </section>
+
+    <section class="contact-detail inner">
+        <a href='{{ site.baseurl }}/cv/'><h5>Download my CV</h5></a><br/>
+        <span>Best way to contact would be; </span>
+        <ul class='links'>
+            <li><strong>Email</strong>:<a href="mailto:gderala@gmail.com" target="_top"> {{site.email}}</a></li>
+            <li><strong>GitHub</strong>:<a href="http://github.com/{{ site.github }}"> {{site.github}}</a></li>
+            <li><strong>LinkedIn</strong>:<a href="http://linkedin.com/in/{{ site.linkedin }}"> {{site.linkedin}}</a></li>
+        </ul>
+    </section>
+    
     <footer>
         <p>Made with <a href="https://jekyllrb.com/">Jekyll</a>, host on <a href="https://github.com/deralation/deralation.github.io">Github Pages</a></p>
         <ul class="links">
@@ -46,16 +59,18 @@
                 <i class="fa fa-facebook"></i>
             </a>
             {% endif %} {% if site.email %}
-            <a href="mailto:gokhan@gokhanderala.com" target="_top">
+            <a href="mailto:gderala@gmail.com" target="_top">
                 <i class="fa fa-envelope"></i>
             </a>
             {% endif %}
         </ul>
     </footer>
 </body>
+
 <script type="text/javascript">
     window.onload = function(){
         document.getElementsByTagName("BODY")[0].classList.remove("preload");
     }
 </script>
+
 </html>

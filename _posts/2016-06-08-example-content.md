@@ -1,11 +1,11 @@
 ---
 description:  ""
 image:        "http://placehold.it/400x200"
-author:       "gderala"
+author:       "gokhan derala"
 ---
 <p class='lead'>Summary</p>
 
-I am **Software Developer** based in Istanbul / Turkey. Working in [YOYO](https://driveyoyo.com) Car Rental Industry since 2016 March.
+I am **Software Developer** based in Istanbul / Turkey and Estonia E-Resident focus on Tech Projects. Working in [YOYO](https://driveyoyo.com) Car Rental Industry since 2016 March.
 
 My pathway is rather atypical. I made an important change in my professional life, by turning towards a quite new career in web development.
 
