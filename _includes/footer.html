@@ -1,0 +1,30 @@
+<footer>
+    <p>Made with <a href="https://jekyllrb.com/">Jekyll</a>, host on <a href="https://github.com/deralation/deralation.github.io">Github Pages</a></p>
+    <ul class="links">
+        {% if site.github %}
+        <a href="http://github.com/{{ site.github }}">
+            <i class="fa fa-github"></i>
+        </a>
+        {% endif %} {% if site.twitter %}
+        <a href="http://twitter.com/{{ site.twitter }}">
+            <i class="fa fa-twitter"></i>
+        </a>
+        {% endif %} {% if site.linkedin %}
+        <a href="http://linkedin.com/in/{{ site.linkedin }}">
+            <i class="fa fa-linkedin"></i>
+        </a>
+        {% endif %} {% if site.pinterest %}
+        <a href="http://pinterest.com/{{ site.pinterest }}">
+            <i class="fa fa-pinterest"></i>
+        </a>
+        {% endif %} {% if site.facebook %}
+        <a href="http://facebook.com/{{ site.facebook }}">
+            <i class="fa fa-facebook"></i>
+        </a>
+        {% endif %} {% if site.email %}
+        <a href="mailto:gderala@gmail.com" target="_top">
+            <i class="fa fa-envelope"></i>
+        </a>
+        {% endif %}
+    </ul>
+</footer>

@@ -1,13 +1,17 @@
 name:               "Gokhan Derala"
 description:        "Software Developer"
 
-url:                ""
+url:                "gokhanderala.com"
 author:             "Gokhan Derala"
 email:              "gderala@gmail.com"
 gravatar_hash:      "1522b62cad68b5ad05099cdfa272b6fc"
 email:              "gderala@gmail.com"
 github:             "deralation"
 linkedin:           "gokhanderala"
+lewagon:            "https://www.lewagon.com/"
+college:            "https://www.comu.edu.tr/en/"
+yoyo:               "http://driveyoyo.com/"
+adphorus:           "https://adphorus.com"
 
 disqus_shortname:   "deralation"
 

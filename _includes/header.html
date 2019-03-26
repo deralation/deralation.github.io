@@ -1,5 +1,14 @@
-<header class="head">
-  <h1 class="head-title">
-    <a href="{{ site.baseurl }}/">{{ site.name }}</a>
-  </h1>
+<header class="inner">
+  <nav>
+      {% for nav in site.nav %}
+          <a href='{{nav.href}}'>{{ nav.name }}</a>
+      {% endfor %}
+  </nav>
+  <div class='logo-right logo' style="background-image: url({{ site.background }});">
+      <div class='name'>
+          <h6>{{ site.name }}</h6>
+          <small>{{ site.description }}</small>
+      </div>
+      <img src="http://www.gravatar.com/avatar/{{ site.gravatar_hash }}?s=140" class="img-circle" />
+  </div>
 </header>

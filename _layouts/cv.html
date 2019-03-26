@@ -1,8 +1,7 @@
----
-layout: default
----
+{% include head.html %}
 
-<div class="content page">
-  <h3 class="page-title">{{ page.title }}</h3>
+<div class="cv-detail inner">
+  <h4 class="page-title">{{ page.title }}</h4>
+  <p class="fancy">{{ site.description }}</p>
   {{ content }}
 </div>

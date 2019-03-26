@@ -5,20 +5,7 @@
 <body class="preload">
 
     <div class='header-container'>
-        <header class="inner">
-            <nav>
-                {% for nav in site.nav %}
-                    <a href='{{nav.href}}'>{{ nav.name }}</a>
-                {% endfor %}
-            </nav>
-            <div class='logo-right logo' style="background-image: url({{ site.background }});">
-                <div class='name'>
-                    <h6>{{ site.name }}</h6>
-                    <small>{{ site.description }}</small>
-                </div>
-                <img src="http://www.gravatar.com/avatar/{{ site.gravatar_hash }}?s=140" class="img-circle" />
-            </div>
-        </header>
+        {% include header.html %}
     </div>
 
     <section class="posts inner">
@@ -26,45 +13,10 @@
     </section>
 
     <section class="contact-detail inner">
-        <a href='{{ site.baseurl }}/cv/'><h5>Download my CV</h5></a><br/>
-        <span>Best way to contact would be; </span>
-        <ul class='links'>
-            <li><strong>Email</strong>:<a href="mailto:gderala@gmail.com" target="_top"> {{site.email}}</a></li>
-            <li><strong>GitHub</strong>:<a href="http://github.com/{{ site.github }}"> {{site.github}}</a></li>
-            <li><strong>LinkedIn</strong>:<a href="http://linkedin.com/in/{{ site.linkedin }}"> {{site.linkedin}}</a></li>
-        </ul>
+        {% include contact.html %}
     </section>
     
-    <footer>
-        <p>Made with <a href="https://jekyllrb.com/">Jekyll</a>, host on <a href="https://github.com/deralation/deralation.github.io">Github Pages</a></p>
-        <ul class="links">
-            {% if site.github %}
-            <a href="http://github.com/{{ site.github }}">
-                <i class="fa fa-github"></i>
-            </a>
-            {% endif %} {% if site.twitter %}
-            <a href="http://twitter.com/{{ site.twitter }}">
-                <i class="fa fa-twitter"></i>
-            </a>
-            {% endif %} {% if site.linkedin %}
-            <a href="http://linkedin.com/in/{{ site.linkedin }}">
-                <i class="fa fa-linkedin"></i>
-            </a>
-            {% endif %} {% if site.pinterest %}
-            <a href="http://pinterest.com/{{ site.pinterest }}">
-                <i class="fa fa-pinterest"></i>
-            </a>
-            {% endif %} {% if site.facebook %}
-            <a href="http://facebook.com/{{ site.facebook }}">
-                <i class="fa fa-facebook"></i>
-            </a>
-            {% endif %} {% if site.email %}
-            <a href="mailto:gderala@gmail.com" target="_top">
-                <i class="fa fa-envelope"></i>
-            </a>
-            {% endif %}
-        </ul>
-    </footer>
+    {% include footer.html %}
 </body>
 
 <script type="text/javascript">
