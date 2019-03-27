@@ -1,0 +1,37 @@
+sudo: required
+dist: trusty
+language: ruby
+rvm:
+-2.5.1
+
+env: 
+  - INJECT_CV_DOWNLOAD_LINK=NO
+
+script:
+  - 'bundle exec jekyll build'
+  - 'ruby make_pdf.rb'
+
+branches:
+  only:
+  - gh-pages
+
+install: 
+  - 'bundle install'
+  - 'gem install pdfkit'
+
+before_install:
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
+  - sudo apt-get -qq update
+  - sudo apt-get install -y xfonts-75dpi
+  - wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.1/wkhtmltox-0.12.1_linux-trusty-amd64.deb
+  - sudo dpkg -i wkhtmltox-0.12.1_linux-trusty-amd64.deb
+
+deploy:
+  provider: releases
+  api_key: $GITHUB_OAUTH_TOKEN
+  file: "./_site/cv.pdf"
+  skip_cleanup: true
+  name: Build $(date +'%d.%m.%Y %R')
+  on:
+    branch: gh-pages
