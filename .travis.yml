@@ -13,7 +13,7 @@ script:
 
 branches:
   only:
-  - gh-pages
+  - master
 
 install: 
   - 'bundle install'
