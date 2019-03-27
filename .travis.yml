@@ -2,23 +2,23 @@ sudo: required
 dist: trusty
 language: ruby
 rvm:
--2.5.1
+- 2.5.1
 
-env: 
+env:
   - INJECT_CV_DOWNLOAD_LINK=NO
 
-script:
-  - 'bundle exec jekyll build'
-  - 'ruby make_pdf.rb'
+script: 
+  - "bundle exec jekyll build"
+  - "ruby make_pdf.rb"
 
 branches:
   only:
   - master
 
-install: 
-  - 'bundle install'
-  - 'gem install pdfkit'
-
+install:
+  - "bundle install"
+  - "gem install pdfkit"
+    
 before_install:
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
@@ -30,7 +30,7 @@ before_install:
 deploy:
   provider: releases
   api_key: $GITHUB_OAUTH_TOKEN
-  file: "./_site/cv/cv.pdf"
+  file: "./_site/cv.pdf"
   skip_cleanup: true
   name: Build $(date +'%d.%m.%Y %R')
   on:

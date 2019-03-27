@@ -21,7 +21,7 @@
                         if (responseJSON.assets && responseJSON.assets.length > 0) {
                             var latestReleaseUrl = responseJSON.assets[0].browser_download_url;
                         
-                             var directLinkTextNode = document.createTextNode("Latest PDF Version: ");
+                            var directLinkTextNode = document.createTextNode("Latest PDF Version: ");
                             var directLinkElement = document.createElement("a");
                             directLinkElement.text = "Click here to download"
                             directLinkElement.href = latestReleaseUrl;
