@@ -30,7 +30,7 @@ before_install:
 deploy:
   provider: releases
   api_key: $GITHUB_OAUTH_TOKEN
-  file: "./_site/cv.pdf"
+  file: "./_site/cv/cv.pdf"
   skip_cleanup: true
   name: Build $(date +'%d.%m.%Y %R')
   on:
