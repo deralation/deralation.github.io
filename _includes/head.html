@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="/image/favicon.ico">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
+    {% if site.shouldInjectCvDownloadLink != "NO" %}
     <script>
         // Attempts to fetch the latest pdf url, then injects the download link to bottom of the page.
         var req = new XMLHttpRequest();
@@ -44,7 +45,7 @@
                 }
             }
         };
-        req.open("GET", "https://api.github.com/repos/{{site.github.repository_nwo}}/releases/latest", true);
+        req.open("GET", "https://api.github.com/repos/deralation.github.io/releases/latest", true);
         req.send();
       </script>
       {% endif %}
