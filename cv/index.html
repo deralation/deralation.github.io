@@ -4,47 +4,6 @@ title: Gokhan Derala
 description: Gokhan Derala's Portfolio of awesome web applications built with Love, Lean, Agile, PHP and Rails MVC
 category: cv
 ---
-{% if site.shouldInjectCvDownloadLink != "NO" %}
-<script>
-  // Attempts to fetch the latest pdf url, then injects the download link to bottom of the page.
-  var req = new XMLHttpRequest();
-  req.onreadystatechange = function() {
-      if (req.readyState == XMLHttpRequest.DONE) {
-          if (req.status == 200) {
-              try {
-                  var responseJSON = JSON.parse(req.responseText);
-                  if (responseJSON.assets && responseJSON.assets.length > 0) {
-                      var latestReleaseUrl = responseJSON.assets[0].browser_download_url;
-                  
-                      var directLinkTextNode = document.createTextNode("Latest PDF Version: ");
-                      var directLinkElement = document.createElement("a");
-                      directLinkElement.text = "Click here to download"
-                      directLinkElement.href = latestReleaseUrl;
-                      var directLinkContainerElement = document.createElement("div");
-                      directLinkContainerElement.appendChild(directLinkTextNode);
-                      directLinkContainerElement.appendChild(directLinkElement);
-                  
-                      var elementToReplace = document.getElementById("footer");
-                      elementToReplace.appendChild(directLinkContainerElement);
-                  }
-                  else {
-                      console.error("PDF download link injection failed: Missing asses in response");
-                  }
-              }
-              catch(e) { 
-                  console.error("PDF download link injection failed: " + e);
-              }
-          }
-          else{
-              console.error("PDF download link injection failed: Response status code not 200 ("+req.status+")");
-          }
-      }
-  };
-  req.open("GET", "https://api.github.com/repos/deralation/deralation.github.io/releases/latest", true);
-  req.send();
-</script>
-{% endif %}
-
 <table>
   <tbody>
     <tr>
@@ -66,7 +25,7 @@ category: cv
   </tbody>
 </table>
 
-<h4 class="page-title">TDLR;</h4>
+<h1 class="page-title">TDLR;</h1>
 <ul>
   <li>Now full stack developer in Car Rental industry (PHP & JavaScript & jQuery & Docker)</li>
   <li>Before i was a Finance Manager</li>
@@ -78,10 +37,10 @@ category: cv
   <li>Fund of NBA and Macro Economics</li>
 </ul>
 
-<h4 class="page-title">Currently</h4>
+<h1 class="page-title">Currently</h1>
 <p>Based in Istanbul, Turkey. Working on Car Rental web application as a full stack developer.</p>
 
-<h4 class="page-title">Education</h4>
+<h1 class="page-title">Education</h1>
 <ul>
   <li>
     <code class="highlighter-rouge">2015(September)-2015(December)</code> <strong><a href="{{ site.lewagon }}">Le Wagon</a> / FullStack Development Bootcamp /  Brussels, Belgium</strong>
@@ -91,7 +50,7 @@ category: cv
   </li>
 </ul>
 
-<h4 class="page-title">Occupation</h4>
+<h1 class="page-title">Occupation</h1>
 <p>
   <code class="hihglighter-rouge">2016 - now</code>
   <strong><a href="{{site.yoyo}}">YOYO Car Sharing LLC </a>, Istanbul / Turkey</strong>
@@ -133,5 +92,5 @@ category: cv
   </ul>
 </p>
 
-<h4 class="page-title">Projects & Code Examples</h4>
+<h1 class="page-title">Projects & Code Examples</h1>
 

@@ -1,62 +1,15 @@
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-site-verification" content="YE4_hiMH2SlyXtwqrhP_dBpU8kIdPY44t_GCHWWNF_w" />
     <title>Gokhan Derala</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="http://localhost:4000/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://localhost:4000/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="http://localhost:4000/image/favicon.ico">
-    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Gokhan Derala" href="/feed.xml" />   
+    <link rel="stylesheet" href="/style.css">
 </head>
 
-
 <div class="cv-detail inner">
-  <h4 class="page-title">Gokhan Derala</h4>
+  <h1 class="page-title">Gokhan Derala</h1>
   <p class="fancy">Software Developer</p>
-  
-<script>
-  // Attempts to fetch the latest pdf url, then injects the download link to bottom of the page.
-  var req = new XMLHttpRequest();
-  req.onreadystatechange = function() {
-      if (req.readyState == XMLHttpRequest.DONE) {
-          if (req.status == 200) {
-              try {
-                  var responseJSON = JSON.parse(req.responseText);
-                  if (responseJSON.assets && responseJSON.assets.length > 0) {
-                      var latestReleaseUrl = responseJSON.assets[0].browser_download_url;
-                  
-                      var directLinkTextNode = document.createTextNode("Latest PDF Version: ");
-                      var directLinkElement = document.createElement("a");
-                      directLinkElement.text = "Click here to download"
-                      directLinkElement.href = latestReleaseUrl;
-                      var directLinkContainerElement = document.createElement("div");
-                      directLinkContainerElement.appendChild(directLinkTextNode);
-                      directLinkContainerElement.appendChild(directLinkElement);
-                  
-                      var elementToReplace = document.getElementById("footer");
-                      elementToReplace.appendChild(directLinkContainerElement);
-                  }
-                  else {
-                      console.error("PDF download link injection failed: Missing asses in response");
-                  }
-              }
-              catch(e) { 
-                  console.error("PDF download link injection failed: " + e);
-              }
-          }
-          else{
-              console.error("PDF download link injection failed: Response status code not 200 ("+req.status+")");
-          }
-      }
-  };
-  req.open("GET", "https://api.github.com/repos/deralation/deralation.github.io/releases/latest", true);
-  req.send();
-</script>
-
-
-<table>
+  <table>
   <tbody>
     <tr>
       <td><strong>E-mail</strong></td>
@@ -77,7 +30,7 @@
   </tbody>
 </table>
 
-<h4 class="page-title">TDLR;</h4>
+<h1 class="page-title">TDLR;</h1>
 <ul>
   <li>Now full stack developer in Car Rental industry (PHP & JavaScript & jQuery & Docker)</li>
   <li>Before i was a Finance Manager</li>
@@ -89,10 +42,10 @@
   <li>Fund of NBA and Macro Economics</li>
 </ul>
 
-<h4 class="page-title">Currently</h4>
+<h1 class="page-title">Currently</h1>
 <p>Based in Istanbul, Turkey. Working on Car Rental web application as a full stack developer.</p>
 
-<h4 class="page-title">Education</h4>
+<h1 class="page-title">Education</h1>
 <ul>
   <li>
     <code class="highlighter-rouge">2015(September)-2015(December)</code> <strong><a href="https://www.lewagon.com/">Le Wagon</a> / FullStack Development Bootcamp /  Brussels, Belgium</strong>
@@ -102,7 +55,7 @@
   </li>
 </ul>
 
-<h4 class="page-title">Occupation</h4>
+<h1 class="page-title">Occupation</h1>
 <p>
   <code class="hihglighter-rouge">2016 - now</code>
   <strong><a href="http://driveyoyo.com/">YOYO Car Sharing LLC </a>, Istanbul / Turkey</strong>
@@ -144,7 +97,7 @@
   </ul>
 </p>
 
-<h4 class="page-title">Projects & Code Examples</h4>
+<h1 class="page-title">Projects & Code Examples</h1>
 
 
 </div>

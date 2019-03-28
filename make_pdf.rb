@@ -8,6 +8,8 @@ PDFKit.configure do |config|
 end
 
 puts "Generating PDF..."
-kit = PDFKit.new(File.new('./_site/index.html'), :page_size => 'Letter')
+kit = PDFKit.new(File.new('./_site/cv/index.html'), :page_size => 'Letter')
+
+kit.inspect
 file = kit.to_file('./_site/cv/cv.pdf')
 puts "Generated PDF is here: #{file.path}"
