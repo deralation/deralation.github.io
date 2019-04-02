@@ -30,7 +30,7 @@ nav:
   - name:           "About"
     href:           "/"
   - name:           "Portolio"
-    href:           "/portfolio/portfolio"
+    href:           "/portfolio/"
   - name:           "CV"
     href:           "/cv/"
   - name:           "Github"
