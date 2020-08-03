@@ -2,7 +2,10 @@ sudo: required
 dist: trusty
 language: ruby
 rvm:
-- 1.29.10
+  - 2.5
+  - 2.6
+  - jruby
+  - truffleruby
 
 env:
   - INJECT_CV_DOWNLOAD_LINK=NO
