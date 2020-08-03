@@ -17,6 +17,11 @@ branches:
 
 install:
   - "gem install bundler:2.0.2"
+  - "gem install jekyll"
+  - "gem install rack-jekyll"
+  - "gem install RedCloth"
+  - "gem install thin"
+  - "gem install jekyll-paginate"
   - "gem install pdfkit"
   - "bundle install"
   
