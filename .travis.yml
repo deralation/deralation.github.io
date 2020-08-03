@@ -2,10 +2,7 @@ sudo: required
 dist: trusty
 language: ruby
 rvm:
-  - 2.5
   - 2.6
-  - jruby
-  - truffleruby
 
 env:
   - INJECT_CV_DOWNLOAD_LINK=NO
@@ -19,9 +16,10 @@ branches:
   - master
 
 install:
-  - "bundle install"
+  - "gem install bundler:2.0.2"
   - "gem install pdfkit"
-    
+  - "bundle install"
+  
 before_install:
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
