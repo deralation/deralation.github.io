@@ -43,7 +43,6 @@ GEM
     mercenary (0.3.6)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    pdfkit (0.8.4.1)
     public_suffix (3.0.3)
     rack (1.6.11)
     rack-jekyll (0.5.0)
@@ -73,9 +72,8 @@ DEPENDENCIES
   RedCloth
   jekyll
   jekyll-paginate
-  pdfkit
   rack-jekyll
   thin
 
 BUNDLED WITH
-   2.0.1
+   2.0.2

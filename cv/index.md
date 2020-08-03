@@ -8,26 +8,26 @@ category: cv
 __E-mail__   | [{{site.email}}](mailto:gderala@gmail.com)
 __Website__  | [{{site.url}}]({{site.url}})
 __LinkedIn__ | [{{site.linkedin}}]({{site.linkedin}})
-__Github__   | [{{site.github}}](http://github.com/{{ site.github }})
+__Github__   | [{{site.github}}](http://github.com/{{site.github}})
 
 #### TLDR;
-- Now full stack developer in Car Rental industry (PHP & JavaScript & jQuery & Docker)
+- Now full stack developer in E-Commerce (PHP & React & Docker & MYSQL)
 - Before i was a Finance Manager
-- 2+ years in sofware developer
+- 4+ years in Software developer
 - 6+ years in finance
-- 4.5 years lived in Oman/Muscat and worked in Construction company as an Finance Manager
-- 1+ year in Finance Manager in SaaS startup in Istanbul
-- Estonia E-Resident and trying my own startup
+- 5 years lived in Oman/Muscat and worked in Construction company as an Finance Manager
+- 1+ year as a Finance Manager in SaaS startup in Istanbul
+- Estonia E-Resident
 - Fund of NBA and Macro Economics
 
 #### Currently;
 
-Based in Istanbul, Turkey. Working on Car Rental web application as a full stack developer.
+Based in Istanbul, Turkey. Working on E-Commerce web application as a full stack developer.
 
 #### Education
 
 `2015(Sep)-2015(Dec)`
-__[Le Wagon]({{ site.lewagon }}) FullStack Development Bootcamp /  Brussels, Belgium__
+__[Le Wagon]({{site.lewagon}}) FullStack Development Bootcamp /  Brussels, Belgium__
   - Object Oriented Programming with Ruby.
   - Ruby on Rails.
   - Database : SQL and ORM. Postgresql, SQLite
@@ -38,11 +38,27 @@ __[Le Wagon]({{ site.lewagon }}) FullStack Development Bootcamp /  Brussels, Bel
 __[Canakkale 18 March University](https://www.comu.edu.tr) / Public Finance__
 
 #### Occupation
+`2020(March) - now`
+__[Mawlin Gmbh ]({{site.mawlin}}), Istanbul / Turkey__ borderless fulfillment services. I’m part of the core development team.
+_Software Developer_
+- Investigated, designed, and implemented our local development environment to Docker to help develop with PHP 7, sqs service, React, SocketIO, Mysql, Redis and Next.js for website.
+- Object Oriented Programming with PHP 7.3
+- MySQL 5.6
+- Postman for the API integrations.
+- Flexible and modular approach to system design.
+- Version control system knowledge Git.
+- Working with Amazon AWS Instances. Our Database store in AWS RDS. We use Amazon SNS Pub/Sub for mobile notifications service for coordinating the delivery of messages to subscribing endpoints and clients. We use Amazon Simple Email Service (Amazon SES) as a mailing to members.
+- Amazon sqs, EventBridge, Lambda.
+- Api integrations with third parties.
+- Front-end : React front-end integration.
+- (PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, React)
 
-`2016(April) - now`
+`2016(April) - 2020(March)`
 __[YOYO Car Sharing LLC ]({{site.yoyo}}), Istanbul / Turkey__ a widely used car rental service. I’m part of the core development team.
 _Software Developer_
 - Investigated, designed, and implemented our local development environment to Docker to help develop with PHP 5.6 and PHP 7
+- AppStore and Google Play application release.
+- Webview Payment page for mobile application.
 - Object Oriented Programming with PHP 5.6
 - MySQL 5.6
 - Flexible and modular approach to system design.
