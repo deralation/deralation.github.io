@@ -10,20 +10,6 @@ category: cv
 **LinkedIn** | [{{site.linkedin}}]({{site.linkedin}})
 **Github** | [{{site.github}}](http://github.com/{{site.github}})
 
-#### Education
-
-`2015(Sep)-2015(Dec)`
-**[Le Wagon]({{site.lewagon}}) FullStack Development Bootcamp / Brussels, Belgium**
-
-- Object Oriented Programming with Ruby.
-- Ruby on Rails.
-- Database : SQL and ORM. Postgresql, SQLite
-- Front-end : HTML, CSS, as well as JavaScript / jQuery for front-end integration. - Best practices : Clean, maintainable code, versioning with Git & Github.
-- Deployment on Heroku.
-
-`2005 - 2009`
-**[Canakkale 18 March University](https://www.comu.edu.tr) / Public Finance**
-
 #### Occupation
 
 `2020(September) - now`
@@ -104,3 +90,17 @@ _Finance Manager_
 - Web : [https://sharegear.herokuapp.com/](https://sharegear.herokuapp.com/)
 
 `Docker` : [https://github.com/deralation/ottolock](https://github.com/deralation/ottolock)
+
+#### Education
+
+`2015(Sep)-2015(Dec)`
+**[Le Wagon]({{site.lewagon}}) FullStack Development Bootcamp / Brussels, Belgium**
+
+- Object Oriented Programming with Ruby.
+- Ruby on Rails.
+- Database : SQL and ORM. Postgresql, SQLite
+- Front-end : HTML, CSS, as well as JavaScript / jQuery for front-end integration. - Best practices : Clean, maintainable code, versioning with Git & Github.
+- Deployment on Heroku.
+
+`2005 - 2009`
+**[Canakkale 18 March University](https://www.comu.edu.tr) / Public Finance**
