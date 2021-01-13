@@ -30,7 +30,7 @@ category: cv
 **[Flickapp ]({{site.flick}}), Kuwait** Instant delivery services services. I’m part of the core development team.
 _Software Developer_
 
-- Investigated, designed, and implemented our local development environment to Docker to help develop with PHP 7, sqs service, React, SocketIO, Mysql, Redis and Next.js for website.
+- Investigated, designed, and implemented our local development environment to Docker to help develop with PHP 7, sqs service, React, SocketIO, Mysql, Redis.
 - Object Oriented Programming with PHP 7.3
 - MySQL 5.6
 - Postman for the API integrations.
