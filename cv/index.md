@@ -40,7 +40,7 @@ _Software Developer_
 - Api integrations with third parties.
 - (PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, React)
 
-`2020(March)`
+`2020(March) - 2020(September)`
 **[Mawlin Gmbh ]({{site.mawlin}}), Istanbul / Turkey** borderless fulfillment services. I’m part of the core development team.
 _Software Developer_
 
