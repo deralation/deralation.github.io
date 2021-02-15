@@ -10,23 +10,20 @@ category: cv
 **LinkedIn** | [{{site.linkedin}}]({{site.linkedin}})
 **Github** | [{{site.github}}](http://github.com/{{site.github}})
 
+#### TLDR;
+
+- Now full stack developer in E-Commerce (PHP & React & Docker & MYSQL)
+- Before i was a Finance Manager
+- 4+ years in Software developer
+- 6+ years in finance
+- 5 years lived in Oman/Muscat and worked in Construction company as an Finance Manager
+- 1+ year as a Finance Manager in SaaS startup in Istanbul
+- Estonia E-Resident
+- Fund of NBA and Macro Economics
+
 #### Occupation
 
-`2020(September) - now`
-**[Flickapp ]({{site.flick}}), Kuwait** Instant delivery services services. I’m part of the core development team.
-_Software Developer_
-
-- Investigated, designed, and implemented our local development environment to Docker to help develop with PHP 7, sqs service, React, SocketIO, Mysql, Redis.
-- Object Oriented Programming with PHP 7.3
-- MySQL 5.6
-- Postman for the API integrations.
-- Flexible and modular approach to system design.
-- Version control system knowledge Git.
-- Working with Amazon AWS Instances.
-- Api integrations with third parties.
-- (PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, React)
-
-`2020(March) - 2020(September)`
+`2020(March) - now`
 **[Mawlin Gmbh ]({{site.mawlin}}), Istanbul / Turkey** borderless fulfillment services. I’m part of the core development team.
 _Software Developer_
 
@@ -78,7 +75,28 @@ _Finance Manager_
 - Cash Flow, Cost related, general expenses breakdown reports
 - Related progress payment calculation arbitration
 
-#### Projects & Code Examples
+#### Freelance Projects & Code Examples
+
+`2020(September) - now`
+**[Flickapp ]({{site.flick}}), Kuwait** Instant delivery services services. I’m part of the core development team.
+_Software Developer_
+
+- Investigated, designed, and implemented our local development environment to Docker to help develop with PHP 7, sqs service, React, SocketIO, Mysql, Redis.
+- (PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)
+- Api integrations with third parties (Latest integration was Shopify App. Basically listens webhook and process through api endpoint).
+
+`2020(September) - now`
+**[Cepfix ]({{site.cepfix}}), Istanbul / Turkey** Mobile phone fixing services.
+_Software Developer_
+
+- (PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)
+- Api integrations with third parties (Latest api integration was courier service with biggest courier provider in Turkey).
+
+`2020(August) - now`
+**[YOYO Car Sharing LLC ]({{site.yoyo}}), Istanbul / Turkey** a widely used car rental service. I’m part of the core development team.
+_Consultant_
+
+- Code review, project management, integration consultancy. Consultancy for MySQL migration from 5.6 -> 8.0 and PHP 5.6 -> 8.0
 
 `gh-pages, Jekyl, Ruby, Travic CI` : [https://github.com/deralation/deralation.github.io](https://github.com/deralation/deralation.github.io)
 
