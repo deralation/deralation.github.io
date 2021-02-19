@@ -75,28 +75,7 @@ _Finance Manager_
 - Cash Flow, Cost related, general expenses breakdown reports
 - Related progress payment calculation arbitration
 
-#### Freelance Projects & Code Examples
-
-`2020(September) - now`
-**[Flickapp ]({{site.flick}}), Kuwait** Instant delivery services services. I’m part of the core development team.
-_Software Developer_
-
-- Investigated, designed, and implemented our local development environment to Docker to help develop with PHP 7, sqs service, React, SocketIO, Mysql, Redis.
-- (PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)
-- Api integrations with third parties (Latest integration was Shopify App. Basically listens webhook and process through api endpoint).
-
-`2020(September) - now`
-**[Cepfix ]({{site.cepfix}}), Istanbul / Turkey** Mobile phone fixing services.
-_Software Developer_
-
-- (PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)
-- Api integrations with third parties (Latest api integration was courier service with biggest courier provider in Turkey).
-
-`2020(August) - now`
-**[YOYO Car Sharing LLC ]({{site.yoyo}}), Istanbul / Turkey** a widely used car rental service. I’m part of the core development team.
-_Consultant_
-
-- Code review, project management, integration consultancy. Consultancy for MySQL migration from 5.6 -> 8.0 and PHP 5.6 -> 8.0
+#### Projects & Code Examples
 
 `gh-pages, Jekyl, Ruby, Travic CI` : [https://github.com/deralation/deralation.github.io](https://github.com/deralation/deralation.github.io)
 
