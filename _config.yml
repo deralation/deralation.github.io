@@ -32,8 +32,6 @@ markdown:           kramdown
 nav:
   - name:           "About"
     href:           "/"
-  - name:           "Portolio"
-    href:           "/portfolio/"
   - name:           "CV"
     href:           "/cv/"
   - name:           "Github"
