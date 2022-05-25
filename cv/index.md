@@ -32,7 +32,7 @@ _Software Developer_
 _Software Developer_
 
 - Investigated, designed, and implemented our local development environment to Docker.
-- Api integrations with third parties Shopify, Zapier and Payment Solutions.
+- API integrations with third parties Shopify, Zapier and Payment Solutions.
 - (PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)
 
 `2020(March) - 2021(November)`
@@ -45,7 +45,7 @@ _Software Developer_
 - Version control system knowledge Git.
 - Working with Amazon AWS Instances. Our Database store in AWS RDS. We use Amazon SNS Pub/Sub for mobile notifications service for coordinating the delivery of messages to subscribing endpoints and clients. We use Amazon Simple Email Service (Amazon SES) as a mailing to members.
 - Amazon sqs, EventBridge, Lambda.
-- Api integrations with third parties.
+- API integrations with third parties.
 - (PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, React, Postman)
 
 `2016(April) - 2020(March)`
