@@ -16,7 +16,7 @@ category: cv
 Repair of mobile phones by authorized third parties or on-site repair<br />
 _Software Developer_
 
-- Working on internal tool.
+- Working on ireporting and administration screens.
 - Third party integrations like Courier Service (Yurtici Kargo - Turkish Courier Services).
 - (PHP 7.3, NGINX , MYSQL 8, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)
 
