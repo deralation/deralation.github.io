@@ -10,36 +10,46 @@ category: cv
 **LinkedIn** | [{{site.linkedin}}]({{site.linkedin}})
 **Github** | [{{site.github}}](http://github.com/{{site.github}})
 
-#### TLDR;
+#### Experience
 
-- Now full stack developer in E-Commerce (PHP & React & Docker & MYSQL)
-- Before i was a Finance Manager
-- 4+ years in Software developer
-- 6+ years in finance
-- 5 years lived in Oman/Muscat and worked in Construction company as an Finance Manager
-- 1+ year as a Finance Manager in SaaS startup in Istanbul
-- Estonia E-Resident
-- Fund of NBA and Macro Economics
-
-#### Occupation
-
-`2020(March) - now`
-**[Mawlin Gmbh ]({{site.mawlin}}), Istanbul / Turkey** borderless fulfillment services. I’m part of the core development team.
+`2020(September) - now`**[Cepfix ]({{site.cepfix}}), Istanbul**<br /> 
+Repair of mobile phones by authorized third parties or on-site repair<br />
 _Software Developer_
 
-- Investigated, designed, and implemented our local development environment to Docker to help develop with PHP 7, sqs service, React, SocketIO, Mysql, Redis and Next.js for website.
+- Working on internal tool.
+- Third party integrations like Courier Service (Yurtici Kargo - Turkish Courier Services).
+- (PHP 7.3, NGINX , MYSQL 8, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)
+
+`2022(January) - now`**[Taksitmarket ]({{site.taksitmarket}}), Istanbul** 
+Cepfix's child company, Ecommerce Platform to buy with bank loan.<br />
+_Software Developer_
+
+- Working on internal tool and Integrations and pricing calculations and ticket system of website and operation team integrations
+- (PHP 7.3, NGINX , MYSQL 8, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)
+
+`2020(September) - now`
+**[Flickapp ]({{site.flickapp}}), Kuwait** Flick offers delivery services to organizations, brands, and restaurants for customer or internal delivery. Flick's platform allows businesses to handle their own delivery services or use Flick's delivery services and follow up.<br/>
+_Software Developer_
+
+- Investigated, designed, and implemented our local development environment to Docker.
+- Api integrations with third parties Shopify, Zapier and Payment Solutions.
+- (PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)
+
+`2020(March) - 2021(November)`
+**[Mawlin Gmbh ]({{site.mawlin}}), Istanbul / Turkey** Mawlin is a company that provides e-commerce solutions to help manufacturers expand on new locations and marketplaces. Services include providing managed services for marketing, reporting and inventory management.
+_Software Developer_
+
+- Investigated, designed, and implemented our local development environment to Docker to help develop with PHP 7.
 - Object Oriented Programming with PHP 7.3
-- MySQL 5.6
-- Postman for the API integrations.
 - Flexible and modular approach to system design.
 - Version control system knowledge Git.
 - Working with Amazon AWS Instances. Our Database store in AWS RDS. We use Amazon SNS Pub/Sub for mobile notifications service for coordinating the delivery of messages to subscribing endpoints and clients. We use Amazon Simple Email Service (Amazon SES) as a mailing to members.
 - Amazon sqs, EventBridge, Lambda.
 - Api integrations with third parties.
-- (PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, React)
+- (PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, React, Postman)
 
 `2016(April) - 2020(March)`
-**[YOYO Car Sharing LLC ]({{site.yoyo}}), Istanbul / Turkey** a widely used car rental service. I’m part of the core development team.
+**[YOYO Car Sharing LLC ]({{site.yoyo}}), Istanbul / Turkey** a widely online used car rental service.
 _Software Developer_
 
 - Investigated, designed, and implemented our local development environment to Docker to help develop with PHP 5.6 and PHP 7
@@ -48,12 +58,12 @@ _Software Developer_
 - Object Oriented Programming with PHP 5.6
 - MySQL 5.6
 - Flexible and modular approach to system design.
-- Version control system knowledge Git.
+- Git.
 - Working with Amazon AWS Instances. Our Database store in AWS RDS. We use Amazon SNS Pub/Sub for mobile notifications service for coordinating the delivery of messages to subscribing endpoints and clients. We use Amazon Simple Email Service (Amazon SES) as a mailing to members.
 - Dynamic localization with TR, EN, AR with gettext
 - Cron scripts to check member payments, reservations.
 - Front-end : HTML, CSS, as well as JavaScript / jQuery for front-end integration.
-- (PHP 5.6, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose)
+- (PHP 5.6, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)
 
 `2014(Mar) - 2015(Mar)`
 **[Adphorus / Publik]({{site.adphorus}}), Istanbul / Turkey**
