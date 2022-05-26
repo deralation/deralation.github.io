@@ -25,7 +25,7 @@ jobs:
           paper_markdown: cv/index.md
 
           # The paper pdf to save
-          paper_outfile: ./_site/cv/cv.pdf
+          paper_outfile: cv/cv.pdf
 
           # One of "minimal" or "pdf" for the template with image, etc.
           pdf_type: pdf
