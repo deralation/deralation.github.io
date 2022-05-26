@@ -2,7 +2,6 @@
 name: generate-pdf-artifacts
 
 on:
-  pull_request: []
   push:
     branches:
      - master
@@ -20,9 +19,6 @@ jobs:
         uses: rseng/pdf-generator@master
         with:        
 
-          # The latex template to use (defaults to one here)
-          latex_template: templates/latex.template.joss
-  
           # The markdown file to render,path is relative to repository
           # make sure that images are also relative to the root in the file
           paper_markdown: cv/index.md
