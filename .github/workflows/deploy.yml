@@ -1,0 +1,34 @@
+   
+name: generate-pdf-artifacts
+
+on:
+  pull_request: []
+  push:
+    branches:
+     - master
+
+jobs:
+  GeneratePdfArtifacts:
+    name: Generate PDFs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+        # See https://github.com/rseng/pdf-generator for release
+      - name: Generate Full PDF Template      
+        uses: rseng/pdf-generator@master
+        with:        
+
+          # The latex template to use (defaults to one here)
+          latex_template: templates/latex.template.joss
+
+          # The markdown file to render,path is relative to repository
+          # make sure that images are also relative to the root in the file
+          paper_markdown: cv/index.md
+
+          # The paper pdf to save
+          paper_outfile: pdf.pdf
+
+          # One of "minimal" or "pdf" for the template with image, etc.
+          pdf_type: pdf
