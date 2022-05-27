@@ -45,7 +45,7 @@ _Software Developer_
 - Version control system knowledge Git.
 - Working with Amazon AWS Instances. Our Database store in AWS RDS. We use Amazon SNS Pub/Sub for mobile notifications service for coordinating the delivery of messages to subscribing endpoints and clients. We use Amazon Simple Email Service (Amazon SES) as a mailing to members.
 - Amazon sqs, EventBridge, Lambda.
-- API integrations with third parties.
+- API integrations (Stripe) with third parties.
 - (PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, React, Postman)
 
 `2016(April) - 2020(March)`
@@ -53,6 +53,7 @@ _Software Developer_
 _Software Developer_
 
 - Investigated, designed, and implemented our local development environment to Docker to help develop with PHP 5.6 and PHP 7
+- Migration from PHP 5.6 to PHP 7
 - AppStore and Google Play application release.
 - Webview Payment page for mobile application.
 - Object Oriented Programming with PHP 5.6
