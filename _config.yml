@@ -34,7 +34,7 @@ nav:
   - name:           "About"
     href:           "/"
   - name:           "CV"
-    href:           "/cv/"
+    href:           "/cv/gokhancv.pdf"
   - name:           "Github"
     href:           "http://github.com/deralation"
   - name:           "Linkedin"
