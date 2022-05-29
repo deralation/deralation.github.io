@@ -1,4 +1,4 @@
-I"M<table>
+I"`<table>
   <tbody>
     <tr>
       <td><strong>E-mail</strong></td>
@@ -22,11 +22,11 @@
 <h4 id="experience">Experience</h4>
 
 <p><code class="language-plaintext highlighter-rouge">2020(September) - now</code><strong><a href="https://cepfix.com">Cepfix </a>, Istanbul</strong><br /> 
-Repair of mobile phones by authorized third parties or on-site repair<br />
+Company that offers Repair of mobile phones by authorized third parties or on-site repair<br />
 <em>Software Developer</em></p>
 
 <ul>
-  <li>Working on ireporting and administration screens.</li>
+  <li>Working on reporting and administration screens.</li>
   <li>Third party integrations like Courier Service (Yurtici Kargo - Turkish Courier Services).</li>
   <li>(PHP 7.3, NGINX , MYSQL 8, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)</li>
 </ul>

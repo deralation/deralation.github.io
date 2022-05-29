@@ -12,19 +12,19 @@ category: cv
 
 #### Experience
 
-`2020(September) - now`**[Cepfix ]({{site.cepfix}}), Istanbul**<br /> 
-Repair of mobile phones by authorized third parties or on-site repair<br />
-_Software Developer_
-
-- Working on ireporting and administration screens.
-- Third party integrations like Courier Service (Yurtici Kargo - Turkish Courier Services).
-- (PHP 7.3, NGINX , MYSQL 8, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)
-
 `2022(January) - now`**[Taksitmarket ]({{site.taksitmarket}}), Istanbul** 
 Cepfix's child company, Ecommerce Platform to buy with bank loan.<br />
 _Software Developer_
 
 - Working on internal tool and Integrations and pricing calculations and ticket system of website and operation team integrations
+- (PHP 7.3, NGINX , MYSQL 8, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)
+
+`2020(September) - now`**[Cepfix ]({{site.cepfix}}), Istanbul**<br /> 
+Company that provides mobile phone repair by authorized third parties or on-site repair<br />
+_Software Developer_
+
+- Working on reporting and administration screens.
+- Third party integrations like Courier Service (Yurtici Kargo - Turkish Courier Services).
 - (PHP 7.3, NGINX , MYSQL 8, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)
 
 `2020(September) - now`
