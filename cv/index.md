@@ -86,7 +86,7 @@ _Finance Manager_
 - Analysis of revenue by product breakdown
 
 `2005(Sep) - 2014(Feb)`
-**Ay-Tek(Oman) Consrtruction L.L.C / Muscat, Oman**<br />
+**Ay-Tek(Oman) Construction L.L.C / Muscat, Oman**<br />
 _Finance Manager_
 
 - Control of all accounting entries, Management and Support of auditors during Audit process
