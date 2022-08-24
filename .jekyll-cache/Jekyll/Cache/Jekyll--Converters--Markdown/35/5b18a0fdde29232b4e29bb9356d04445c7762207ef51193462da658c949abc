@@ -1,4 +1,4 @@
-I"^<table>
+I"� <table>
   <tbody>
     <tr>
       <td><strong>E-mail</strong></td>
@@ -21,52 +21,63 @@
 
 <h4 id="experience">Experience</h4>
 
-<p><code class="language-plaintext highlighter-rouge">2022(January) - now</code><strong><a href="https://taksitmarket.com">Taksitmarket </a>, Istanbul</strong> 
-Cepfix’s child company, Ecommerce Platform to buy with bank loan.<br />
-<em>Software Developer</em></p>
-
-<ul>
-  <li>Working on internal tool and Integrations and pricing calculations and ticket system of website and operation team integrations</li>
-  <li>(PHP 7.3, NGINX , MYSQL 8, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)</li>
-</ul>
-
-<p><code class="language-plaintext highlighter-rouge">2020(September) - now</code><strong><a href="https://cepfix.com">Cepfix </a>, Istanbul</strong><br /> 
-Company that provides mobile phone repair by authorized third parties or on-site repair<br />
-<em>Software Developer</em></p>
-
-<ul>
-  <li>Working on reporting and administration screens.</li>
-  <li>Third party integrations like Courier Service (Yurtici Kargo - Turkish Courier Services).</li>
-  <li>(PHP 7.3, NGINX , MYSQL 8, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)</li>
-</ul>
-
 <p><code class="language-plaintext highlighter-rouge">2020(September) - now</code>
-<strong><a href="https://flickapp.me">Flickapp </a>, Kuwait</strong> Flick offers delivery services to organizations, brands, and restaurants for customer or internal delivery. Flick’s platform allows businesses to handle their own delivery services or use Flick’s delivery services and follow up.<br />
+<strong><a href="https://flickapp.me">Flickapp </a>, Kuwait</strong> <br />
+Flick offers delivery services to organizations, brands, and restaurants for customer or internal delivery. Flick’s platform allows businesses to handle their own delivery services or use Flick’s delivery services and follow up.<br />
 <em>Software Developer</em></p>
 
 <ul>
   <li>Investigated, designed, and implemented our local development environment to Docker.</li>
-  <li>API integrations with third parties Shopify, Zapier and Payment Solutions.</li>
-  <li>(PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)</li>
+  <li>Developed Koa Node Server for Shopify Webhook requests for orders created from Shopify,</li>
+  <li>Developed API endpoint for orders created from <a href="https://zapier.com/">Zapier</a>.</li>
+  <li>Developed integration with third party instant <a href="https://www.tap.company/">Tap</a> Payment Solutions.</li>
+  <li>Developed integration endpoint for <a href="https://www.ncr.com/">NCR</a> webhook to receive orders created from NCR screens</li>
+  <li>Migration From Mysql 5.6 to Mysql 8.0</li>
+  <li>(PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman, Git)</li>
 </ul>
 
-<p><code class="language-plaintext highlighter-rouge">2020(March) - 2021(November)</code>
-<strong><a href="https://mawlin.com/">Mawlin Gmbh </a>, Istanbul / Turkey</strong> Mawlin is a company that provides e-commerce solutions to help manufacturers expand on new locations and marketplaces. Services include providing managed services for marketing, reporting and inventory management.
+<p><code class="language-plaintext highlighter-rouge">2022(January) - now</code><strong><a href="https://taksitmarket.com">Taksitmarket </a>, Istanbul</strong> <br />
+Cepfix’s child company, Ecommerce Platform offer to buy with pay after option with instant bank loan.<br />
 <em>Software Developer</em></p>
 
 <ul>
-  <li>Investigated, designed, and implemented our local development environment to Docker to help develop with PHP 7.</li>
-  <li>Object Oriented Programming with PHP 7.3</li>
-  <li>Flexible and modular approach to system design.</li>
-  <li>Version control system knowledge Git.</li>
-  <li>Working with Amazon AWS Instances. Our Database store in AWS RDS. We use Amazon SNS Pub/Sub for mobile notifications service for coordinating the delivery of messages to subscribing endpoints and clients. We use Amazon Simple Email Service (Amazon SES) as a mailing to members.</li>
-  <li>Amazon sqs, EventBridge, Lambda.</li>
-  <li>API integrations (Stripe) with third parties.</li>
-  <li>(PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, React, Postman)</li>
+  <li>Developed an internal tools that does Ticket System with Customer and Customer Service Department</li>
+  <li>Marketing email queue structure triggered from Internal Dashboard by accessed Team Members</li>
+  <li>Provide necessary API endpoints for Customer account interfaces.</li>
+  <li>Customer account interface for ticket, shipment and invoice address editing and adding through restAPI</li>
+  <li>Developed necessary reports to Internal Team and developed interface with chart.js</li>
+  <li>CRUD of most of objects and migration of object properties</li>
+  <li>Migration From Mysql 5.6 to Mysql 8.0</li>
+  <li>(PHP 7.3, NGINX , MYSQL 8, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2020(September) - now</code><strong><a href="https://cepfix.com">Cepfix </a>, Istanbul</strong><br />
+Company that provides mobile phone repair by authorized third parties or on-site repair<br />
+<em>Software Developer</em></p>
+
+<ul>
+  <li>Developed i18 language option for website.</li>
+  <li>Developer integrations with third party Courier Service (Yurtici Kargo - Turkish Courier Services).</li>
+  <li>Working on reporting and internal tools for teams.</li>
+  <li>Migration From Mysql 5.6 to Mysql 8.0</li>
+  <li>(PHP 7.3, NGINX , MYSQL 8, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman, Git)</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2020(March) - 2021(November)</code>
+<strong><a href="https://mawlin.com/">Mawlin Gmbh </a>, Istanbul / Turkey</strong> <br />
+Mawlin is a company that provides e-commerce solutions to help manufacturers expand on new locations and marketplaces. Services include providing managed services for marketing, reporting and inventory management.
+<em>Software Developer</em></p>
+
+<ul>
+  <li>Developed API integrations (Stripe) with third parties.</li>
+  <li>Developed Dashboard screens and API endpoints for CRUD of objects.</li>
+  <li>Migrations of Object Properties with Phinx Cake</li>
+  <li>(PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, React, Postman, Git)</li>
 </ul>
 
 <p><code class="language-plaintext highlighter-rouge">2016(April) - 2020(March)</code>
-<strong><a href="http://driveyoyo.com/">YOYO Car Sharing LLC </a>, Istanbul / Turkey</strong> a widely online used car rental service.
+<strong><a href="http://driveyoyo.com/">YOYO Car Sharing LLC </a>, Istanbul / Turkey</strong> <br />
+YOYO is a widely online used car rental service.
 <em>Software Developer</em></p>
 
 <ul>
@@ -86,7 +97,7 @@ Company that provides mobile phone repair by authorized third parties or on-site
 </ul>
 
 <p><code class="language-plaintext highlighter-rouge">2014(Mar) - 2015(Mar)</code>
-<strong><a href="https://adphorus.com">Adphorus / Publik</a>, Istanbul / Turkey</strong>
+<strong><a href="https://adphorus.com">Adphorus / Publik</a>, Istanbul / Turkey</strong><br />
 <em>Finance Manager</em></p>
 
 <ul>
@@ -100,7 +111,7 @@ Company that provides mobile phone repair by authorized third parties or on-site
 </ul>
 
 <p><code class="language-plaintext highlighter-rouge">2005(Sep) - 2014(Feb)</code>
-<strong>Ay-Tek(Oman) Consrtruction L.L.C / Muscat, Oman</strong>
+<strong>Ay-Tek(Oman) Consrtruction L.L.C / Muscat, Oman</strong><br />
 <em>Finance Manager</em></p>
 
 <ul>

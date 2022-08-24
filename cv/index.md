@@ -12,62 +12,69 @@ category: cv
 
 #### Experience
 
-`2022(January) - now`**[Taksitmarket ]({{site.taksitmarket}}), Istanbul** 
-Cepfix's child company, Ecommerce Platform to buy with bank loan.<br />
-_Software Developer_
-
-- Working on internal tool and Integrations and pricing calculations and ticket system of website and operation team integrations
-- (PHP 7.3, NGINX , MYSQL 8, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)
-
-`2020(September) - now`**[Cepfix ]({{site.cepfix}}), Istanbul**<br /> 
-Company that provides mobile phone repair by authorized third parties or on-site repair<br />
-_Software Developer_
-
-- Working on reporting and administration screens.
-- Third party integrations like Courier Service (Yurtici Kargo - Turkish Courier Services).
-- (PHP 7.3, NGINX , MYSQL 8, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)
-
 `2020(September) - now`
-**[Flickapp ]({{site.flickapp}}), Kuwait** Flick offers delivery services to organizations, brands, and restaurants for customer or internal delivery. Flick's platform allows businesses to handle their own delivery services or use Flick's delivery services and follow up.<br/>
+**[Flickapp ]({{site.flickapp}}), Kuwait** <br />
+Flick offers delivery services to organizations, brands, and restaurants for customer or internal delivery. Flick's platform allows businesses to handle their own delivery services or use Flick's delivery services and follow up.<br/>
 _Software Developer_
 
 - Investigated, designed, and implemented our local development environment to Docker.
-- API integrations with third parties Shopify, Zapier and Payment Solutions.
-- (PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)
+- Developed Koa Node Server for Shopify Webhook requests for orders created from Shopify,
+- Developed API endpoint for orders created from [Zapier]({{"https://zapier.com/"}}).
+- Developed integration with third party instant [Tap]({{"https://www.tap.company/"}}) Payment Solutions.
+- Developed integration endpoint for [NCR]({{"https://www.ncr.com/"}}) webhook to receive orders created from NCR screens
+- Migration From Mysql 5.6 to Mysql 8.0
+- (PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman, Git)
+
+`2022(January) - now`**[Taksitmarket ]({{site.taksitmarket}}), Istanbul** <br />
+Cepfix's child company, Ecommerce Platform offer to buy with installments option with instant bank loan.<br />
+_Software Developer_
+
+- Developed an internal tools that does Ticket System with Customer and Customer Service Department
+- Marketing email queue structure triggered from Internal Dashboard by accessed Team Members
+- Provide necessary API endpoints for Customer account interfaces.
+- Customer account interface for ticket, shipment and invoice address editing and adding through restAPI
+- Developed necessary reports to Internal Team and developed interface with chart.js
+- CRUD of most of objects and migration of object properties
+- Migration From Mysql 5.6 to Mysql 8.0
+- (PHP 7.3, NGINX , MYSQL 8, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)
+
+`2020(September) - now`**[Cepfix ]({{site.cepfix}}), Istanbul**<br />
+Company that provides mobile phone repair by authorized third parties or on-site repair<br />
+_Software Developer_
+
+- Developed i18 language option for website.
+- Developer integrations with third party Courier Service (Yurtici Kargo - Turkish Courier Services).
+- Working on reporting and internal tools for teams.
+- Migration From Mysql 5.6 to Mysql 8.0
+- (PHP 7.3, NGINX , MYSQL 8, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman, Git)
 
 `2020(March) - 2021(November)`
-**[Mawlin Gmbh ]({{site.mawlin}}), Istanbul / Turkey** Mawlin is a company that provides e-commerce solutions to help manufacturers expand on new locations and marketplaces. Services include providing managed services for marketing, reporting and inventory management.
+**[Mawlin Gmbh ]({{site.mawlin}}), Istanbul / Turkey** <br />
+Mawlin is a company that provides e-commerce solutions to help manufacturers expand on new locations and marketplaces. Services include providing managed services for marketing, reporting and inventory management.
 _Software Developer_
 
-- Investigated, designed, and implemented our local development environment to Docker to help develop with PHP 7.
-- Object Oriented Programming with PHP 7.3
-- Flexible and modular approach to system design.
-- Version control system knowledge Git.
-- Working with Amazon AWS Instances. Our Database store in AWS RDS. We use Amazon SNS Pub/Sub for mobile notifications service for coordinating the delivery of messages to subscribing endpoints and clients. We use Amazon Simple Email Service (Amazon SES) as a mailing to members.
-- Amazon sqs, EventBridge, Lambda.
-- API integrations (Stripe) with third parties.
-- (PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, React, Postman)
+- Developed API integrations (Stripe) with third parties.
+- Developed Dashboard screens and API endpoints for CRUD of objects.
+- Migrations of Object Properties with Phinx Cake
+- (PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, React, Postman, Git)
 
 `2016(April) - 2020(March)`
-**[YOYO Car Sharing LLC ]({{site.yoyo}}), Istanbul / Turkey** a widely online used car rental service.
+**[YOYO Car Sharing LLC ]({{site.yoyo}}), Istanbul / Turkey** <br />
+YOYO is a widely online used car rental service.
 _Software Developer_
 
-- Investigated, designed, and implemented our local development environment to Docker to help develop with PHP 5.6 and PHP 7
-- Migration from PHP 5.6 to PHP 7
-- AppStore and Google Play application release.
-- Webview Payment page for mobile application.
-- Object Oriented Programming with PHP 5.6
-- MySQL 5.6
-- Flexible and modular approach to system design.
-- Git.
-- Working with Amazon AWS Instances. Our Database store in AWS RDS. We use Amazon SNS Pub/Sub for mobile notifications service for coordinating the delivery of messages to subscribing endpoints and clients. We use Amazon Simple Email Service (Amazon SES) as a mailing to members.
-- Dynamic localization with TR, EN, AR with gettext
+- Migration from PHP 5.6 to PHP 7.3
+- Migration From Mysql 5.6 to Mysql 8.0
+- AppStore and Google Play release for Android and IOS application.
+- Webview Payment and Reservation pages for mobile applications.
+- Developed Dashboard screens and API endpoints for CRUD of objects.
+- Developed i18 language option for website.
 - Cron scripts to check member payments, reservations.
 - Front-end : HTML, CSS, as well as JavaScript / jQuery for front-end integration.
 - (PHP 5.6, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)
 
 `2014(Mar) - 2015(Mar)`
-**[Adphorus / Publik]({{site.adphorus}}), Istanbul / Turkey**
+**[Adphorus / Publik]({{site.adphorus}}), Istanbul / Turkey**<br />
 _Finance Manager_
 
 - Management of Commercial Due Diligence Processes
@@ -79,7 +86,7 @@ _Finance Manager_
 - Analysis of revenue by product breakdown
 
 `2005(Sep) - 2014(Feb)`
-**Ay-Tek(Oman) Consrtruction L.L.C / Muscat, Oman**
+**Ay-Tek(Oman) Consrtruction L.L.C / Muscat, Oman**<br />
 _Finance Manager_
 
 - Control of all accounting entries, Management and Support of auditors during Audit process

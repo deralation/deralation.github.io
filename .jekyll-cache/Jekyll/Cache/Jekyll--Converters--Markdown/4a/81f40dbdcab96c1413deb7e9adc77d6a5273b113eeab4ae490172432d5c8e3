@@ -1,0 +1,153 @@
+I"�!<table>
+  <tbody>
+    <tr>
+      <td><strong>E-mail</strong></td>
+      <td><a href="mailto:gderala@gmail.com">gderala@gmail.com</a></td>
+    </tr>
+    <tr>
+      <td><strong>Website</strong></td>
+      <td><a href="http://localhost:4000">http://localhost:4000</a></td>
+    </tr>
+    <tr>
+      <td><strong>LinkedIn</strong></td>
+      <td><a href="gokhanderala">gokhanderala</a></td>
+    </tr>
+    <tr>
+      <td><strong>Github</strong></td>
+      <td><a href="http://github.com/deralation">deralation</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="experience">Experience</h4>
+
+<p><code class="language-plaintext highlighter-rouge">2022(January) - now</code><strong><a href="https://taksitmarket.com">Taksitmarket </a>, Istanbul</strong> <br />
+Cepfix’s child company, Ecommerce Platform to buy with bank loan.<br />
+<em>Software Developer</em></p>
+
+<ul>
+  <li>Developed an internal tools that does Ticket System with Customer and Customer Service Department</li>
+  <li>Marketing email queue structure triggered from Internal Dashboard by accessed Team Members</li>
+  <li>Provide necessary API endpoints for Customer account interfaces.</li>
+  <li>Customer account interface for ticket, shipment and invoice address editing and adding through restAPI</li>
+  <li>Developed necessary reports to Internal Team and developed interface with chart.js</li>
+  <li>CRUD of most of objects and migrations</li>
+  <li>(PHP 7.3, NGINX , MYSQL 8, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2020(September) - now</code><strong><a href="https://cepfix.com">Cepfix </a>, Istanbul</strong><br />
+Company that provides mobile phone repair by authorized third parties or on-site repair<br />
+<em>Software Developer</em></p>
+
+<ul>
+  <li>Developed i18 language option for website for non turkish people.</li>
+  <li>Developer integrations with third party Courier Service (Yurtici Kargo - Turkish Courier Services).</li>
+  <li>Working on reporting and internal tools for teams.</li>
+  <li>(PHP 7.3, NGINX , MYSQL 8, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2020(September) - now</code>
+<strong><a href="https://flickapp.me">Flickapp </a>, Kuwait</strong> <br />
+Flick offers delivery services to organizations, brands, and restaurants for customer or internal delivery. Flick’s platform allows businesses to handle their own delivery services or use Flick’s delivery services and follow up.<br />
+<em>Software Developer</em></p>
+
+<ul>
+  <li>Investigated, designed, and implemented our local development environment to Docker.</li>
+  <li>Developed Koa Node Server for Shopify Webhook requests for orders created from Shopify,</li>
+  <li>Developed API endpoint for orders created from <a href="https://zapier.com/">Zapier</a>.</li>
+  <li>Developed integration with third party instant <a href="https://www.tap.company/">Tap</a> Payment Solutions.</li>
+  <li>Developed integration endpoint for <a href="https://www.ncr.com/">NCR</a> webhook to receive orders created from NCR screens</li>
+  <li>(PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman, Git)</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2020(March) - 2021(November)</code>
+<strong><a href="https://mawlin.com/">Mawlin Gmbh </a>, Istanbul / Turkey</strong> <br />
+Mawlin is a company that provides e-commerce solutions to help manufacturers expand on new locations and marketplaces. Services include providing managed services for marketing, reporting and inventory management.
+<em>Software Developer</em></p>
+
+<ul>
+  <li>Investigated, designed, and implemented our local development environment to Docker to help develop with PHP 7.</li>
+  <li>Flexible and modular approach to system design.</li>
+  <li>Version control system knowledge Git.</li>
+  <li>Working with Amazon AWS Instances. Our Database store in AWS RDS. We use Amazon SNS Pub/Sub for mobile notifications service for coordinating the delivery of messages to subscribing endpoints and clients. We use Amazon Simple Email Service (Amazon SES) as a mailing to members.</li>
+  <li>Amazon sqs, EventBridge, Lambda.</li>
+  <li>API integrations (Stripe) with third parties.</li>
+  <li>(PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, React, Postman, Git)</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2016(April) - 2020(March)</code>
+<strong><a href="http://driveyoyo.com/">YOYO Car Sharing LLC </a>, Istanbul / Turkey</strong> <br />
+YOYO is a widely online used car rental service.
+<em>Software Developer</em></p>
+
+<ul>
+  <li>Investigated, designed, and implemented our local development environment to Docker to help develop with PHP 5.6 and PHP 7</li>
+  <li>Migration from PHP 5.6 to PHP 7</li>
+  <li>AppStore and Google Play application release.</li>
+  <li>Webview Payment page for mobile application.</li>
+  <li>Object Oriented Programming with PHP 5.6</li>
+  <li>MySQL 5.6</li>
+  <li>Flexible and modular approach to system design.</li>
+  <li>Git.</li>
+  <li>Working with Amazon AWS Instances. Our Database store in AWS RDS. We use Amazon SNS Pub/Sub for mobile notifications service for coordinating the delivery of messages to subscribing endpoints and clients. We use Amazon Simple Email Service (Amazon SES) as a mailing to members.</li>
+  <li>Dynamic localization with TR, EN, AR with gettext</li>
+  <li>Cron scripts to check member payments, reservations.</li>
+  <li>Front-end : HTML, CSS, as well as JavaScript / jQuery for front-end integration.</li>
+  <li>(PHP 5.6, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2014(Mar) - 2015(Mar)</code>
+<strong><a href="https://adphorus.com">Adphorus / Publik</a>, Istanbul / Turkey</strong><br />
+<em>Finance Manager</em></p>
+
+<ul>
+  <li>Management of Commercial Due Diligence Processes</li>
+  <li>Collecting, compiling and reporting data, reviewing and analyzing Financial Records and Reports and contributing to problem solving</li>
+  <li>Cash Flow reports, EBITDA analysis on Foursquare, Facebook, Google products</li>
+  <li>Reconciliations of Foursquare, LinkedIn and Google accounts</li>
+  <li>Preparation of P&amp;L statement</li>
+  <li>Calculation of COGS (Costs of Goods Sold) by Products</li>
+  <li>Analysis of revenue by product breakdown</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2005(Sep) - 2014(Feb)</code>
+<strong>Ay-Tek(Oman) Consrtruction L.L.C / Muscat, Oman</strong><br />
+<em>Finance Manager</em></p>
+
+<ul>
+  <li>Control of all accounting entries, Management and Support of auditors during Audit process</li>
+  <li>Cash Flow, Cost related, general expenses breakdown reports</li>
+  <li>Related progress payment calculation arbitration</li>
+</ul>
+
+<h4 id="projects--code-examples">Projects &amp; Code Examples</h4>
+
+<p><code class="language-plaintext highlighter-rouge">gh-pages, Jekyl, Ruby, Travic CI</code> : <a href="https://github.com/deralation/deralation.github.io">https://github.com/deralation/deralation.github.io</a></p>
+
+<p><code class="language-plaintext highlighter-rouge">JavaScript, jQuery, HTML</code> : <a href="https://github.com/deralation/ottolock">https://github.com/deralation/ottolock</a></p>
+
+<p><code class="language-plaintext highlighter-rouge">Ruby on Rails, Ruby, PostgreSQL, JavaScript, jQuery</code> :</p>
+
+<ul>
+  <li>Source : <a href="https://github.com/deralation/prodaction">https://github.com/deralation/prodaction</a></li>
+  <li>Web : <a href="https://sharegear.herokuapp.com/">https://sharegear.herokuapp.com/</a></li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Docker</code> : <a href="https://github.com/deralation/ottolock">https://github.com/deralation/ottolock</a></p>
+
+<h4 id="education">Education</h4>
+
+<p><code class="language-plaintext highlighter-rouge">2015(Sep)-2015(Dec)</code>
+<strong><a href="https://www.lewagon.com/">Le Wagon</a> FullStack Development Bootcamp / Brussels, Belgium</strong></p>
+
+<ul>
+  <li>Object Oriented Programming with Ruby.</li>
+  <li>Ruby on Rails.</li>
+  <li>Database : SQL and ORM. Postgresql, SQLite</li>
+  <li>Front-end : HTML, CSS, as well as JavaScript / jQuery for front-end integration. - Best practices : Clean, maintainable code, versioning with Git &amp; Github.</li>
+  <li>Deployment on Heroku.</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">2005 - 2009</code>
+<strong><a href="https://www.comu.edu.tr">Canakkale 18 March University</a> / Public Finance</strong></p>
+:ET

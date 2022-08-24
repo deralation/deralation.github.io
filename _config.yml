@@ -1,5 +1,5 @@
 name:               "Gokhan Derala"
-description:        "Software Developer"
+description:        "Software Developer based in Ottawa, ON with PR status"
 
 url:                "gokhanderala.com"
 author:             "Gokhan Derala"
@@ -23,7 +23,7 @@ disqus_shortname:   "deralation"
 background:         ""
 
 paginate:           5
-paginate_path:      "/page:num/"  
+paginate_path:      "/page:num/"
 
 baseurl:            ""
 permalink:          /:year/:month/:day/:title/
@@ -38,7 +38,7 @@ nav:
   - name:           "Github"
     href:           "http://github.com/deralation"
   - name:           "Linkedin"
-    href:           "http://linkedin.com/in/gokhanderala" 
+    href:           "http://linkedin.com/in/gokhanderala"
 
 sass:
   style:            :compressed
