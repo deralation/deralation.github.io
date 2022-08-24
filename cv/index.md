@@ -18,23 +18,23 @@ Flick offers delivery services to organizations, brands, and restaurants for cus
 _Software Developer_
 
 - Investigated, designed, and implemented our local development environment to Docker.
-- Developed Koa Node Server for Shopify Webhook requests for orders created from Shopify,
+- Developed Koa Node Server for Shopify Webhook requests for orders created from [Shopify]({{"https://www.shopify.com"}}).
 - Developed API endpoint for orders created from [Zapier]({{"https://zapier.com/"}}).
-- Developed integration with third party instant [Tap]({{"https://www.tap.company/"}}) Payment Solutions.
-- Developed integration endpoint for [NCR]({{"https://www.ncr.com/"}}) webhook to receive orders created from NCR screens
-- Migration From Mysql 5.6 to Mysql 8.0
+- Developed integration with third-party instant [Tap]({{"https://www.tap.company/"}}) Payment Solutions.
+- Developed integration endpoint for [NCR]({{"https://www.ncr.com/"}}) webhook to receive orders created from NCR screens.
+- Migration From Mysql 5.6 to Mysql 8.0.
 - (PHP 7.3, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman, Git)
 
 `2022(January) - now`**[Taksitmarket ]({{site.taksitmarket}}), Istanbul** <br />
 Cepfix's child company, Ecommerce Platform offer to buy with installments option with instant bank loan.<br />
 _Software Developer_
 
-- Developed an internal tools that does Ticket System with Customer and Customer Service Department
+- Developed an internal tool that does Ticket System with the Customer and Customer Service Department.
 - Marketing email queue structure triggered from Internal Dashboard by accessed Team Members
 - Provide necessary API endpoints for Customer account interfaces.
-- Customer account interface for ticket, shipment and invoice address editing and adding through restAPI
+- Customer account interface for a ticket, shipment, and invoice address editing and adding through rest API.
 - Developed necessary reports to Internal Team and developed interface with chart.js
-- CRUD of most of objects and migration of object properties
+- CRUD of most objects and migration of object properties
 - Migration From Mysql 5.6 to Mysql 8.0
 - (PHP 7.3, NGINX , MYSQL 8, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)
 
@@ -42,8 +42,8 @@ _Software Developer_
 Company that provides mobile phone repair by authorized third parties or on-site repair<br />
 _Software Developer_
 
-- Developed i18 language option for website.
-- Developer integrations with third party Courier Service (Yurtici Kargo - Turkish Courier Services).
+- Developed i18 language option for the website.
+- Developer integrations with third-party Courier services (Yurtici Kargo - Turkish Courier Services).
 - Working on reporting and internal tools for teams.
 - Migration From Mysql 5.6 to Mysql 8.0
 - (PHP 7.3, NGINX , MYSQL 8, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman, Git)
@@ -65,11 +65,11 @@ _Software Developer_
 
 - Migration from PHP 5.6 to PHP 7.3
 - Migration From Mysql 5.6 to Mysql 8.0
-- AppStore and Google Play release for Android and IOS application.
+- AppStore and Google Play release for Android and IOS applications.
 - Webview Payment and Reservation pages for mobile applications.
 - Developed Dashboard screens and API endpoints for CRUD of objects.
-- Developed i18 language option for website.
-- Cron scripts to check member payments, reservations.
+- Developed i18 language option for the website.
+- Cron scripts to check member payments and reservations.
 - Front-end : HTML, CSS, as well as JavaScript / jQuery for front-end integration.
 - (PHP 5.6, NGINX , MYSQL, Docker, AWS, JavaScript, jQuery, Docker-compose, Postman)
 
